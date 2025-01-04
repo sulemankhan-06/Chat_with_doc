@@ -1,0 +1,34 @@
+# Environment variables and virtual environments
+.env
+venv/
+env/
+DocChat/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Project specific
+Guidelines_Data/
+*.pdf
+model_cache/
+
+# Logs
+logs/
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
